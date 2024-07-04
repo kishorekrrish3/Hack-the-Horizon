@@ -43,6 +43,13 @@ const Navbar = ({ isFixed }) => {
             About
           </a>
           <a
+            href="#timeline"
+            className="navbar-link"
+            onClick={(e) => scrollToSection(e, "timeline")}
+          >
+            Timeline
+          </a>
+          <a
             href="#sponsors"
             className="navbar-link"
             onClick={(e) => scrollToSection(e, "sponsors")}

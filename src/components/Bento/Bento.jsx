@@ -74,10 +74,59 @@ const Bento = () => {
       <div className="bento-container">
         <div className="bento-line-1">
           <div className="bento-box bb1">
-            <h1 className="bb-title">SPONSORED BY</h1>
+            {/* <h1 className="bb-title">SPONSORED BY</h1>
             <div className="bb-logos">
               <img src="/assets/edufic.png" alt="Edufic" className="bb-logo" />
               <img src="/assets/zuntra.png" alt="Zuntra" className="bb-logo" />
+            </div> */}
+            {/* <h1 className="bb-title">FOLLOW US ON OUR SOCIALS</h1>
+            <div className="bb-socials-container">
+              <div className="bb-social-cont">
+                <p className="bb-label">Instagram</p>
+                <img
+                  src="/assets/instagram-1.svg"
+                  alt="Instagram"
+                  className="bb-social"
+                />
+              </div>
+              <div className="bb-social-cont">
+                <p className="bb-label">WhatsApp</p>
+                <img
+                  src="/assets/whatsapp-1.svg"
+                  alt="WhatsApp"
+                  className="bb-social"
+                />
+              </div>
+              <div className="bb-social-cont">
+                <p className="bb-label">LinkedIn</p>
+                <img
+                  src="/assets/linkedin-1.svg"
+                  alt="LinkedIn"
+                  className="bb-social"
+                />
+              </div>
+              <div className="bb-social-cont">
+                <p className="bb-label">Spotify</p>
+                <img
+                  src="/assets/spotify-1.svg"
+                  alt="Spotify"
+                  className="bb-social"
+                />
+              </div>
+            </div> */}
+            <h1 className="bb-title">EVENT BROCHURE</h1>
+            <div className="video-container">
+              <a
+                href="/assets/brochure.pdf"
+                download="brochure.pdf"
+                className="download-link"
+              >
+                <video autoPlay muted loop className="bb-video">
+                  <source src="/assets/brochure.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+                <div className="download-text">Download Brochure</div>
+              </a>
             </div>
           </div>
 

@@ -8,7 +8,7 @@ const Home = () => {
         HACK THE <span className="home-title-gradient">HORIZON</span>
       </h1>
       <p className="home-subtitle">Build Beyond Boundaries</p>
-      <button className="home-btn">Take the Leap!</button>
+      <button className="home-btn">Register now!</button>
     </div>
   );
 };

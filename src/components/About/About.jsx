@@ -16,6 +16,7 @@ const About = () => {
             facilitating collaboration and knowledge exchange between the
             academic realm and the dynamic world of industry.
           </p>
+          <button className="brochure-btn">DOWNLOAD BROCHURE</button>
         </div>
         <div className="about-cont-2">
           <img src="/assets/robot.svg" alt="Robot" className="about-robot" />

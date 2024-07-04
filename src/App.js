@@ -6,12 +6,13 @@ import Contact from "./components/Contact/Contact";
 import Core from "./components/CoreTeam/Core";
 import Countdown from "./components/Countdown/Countdown";
 import FAQ from "./components/FAQ/FAQ";
-import Faculty from "./components/Faculty/Faculty";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
 import Prizes from "./components/Prizes/Prizes";
 import Sponsors from "./components/Sponsors/Sponsors";
+import Judge from "./components/Judge/Judge";
+import Timeline from "./components/Timeline/Timeline";
 
 function App() {
   const [isFixed, setIsFixed] = useState(false);
@@ -43,14 +44,17 @@ function App() {
       <div id="about">
         <About />
       </div>
+      <div id="timeline">
+        <Timeline />
+      </div>
       <div id="sponsors">
         <Sponsors />
       </div>
+      <div id="judge">
+        <Judge />
+      </div>
       <div id="prizes">
         <Prizes />
-      </div>
-      <div id="faculty">
-        <Faculty />
       </div>
       <div id="core">
         <Core />

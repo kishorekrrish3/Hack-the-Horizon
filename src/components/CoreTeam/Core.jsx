@@ -5,37 +5,40 @@ const Core = () => {
   return (
     <div className="core">
       <h1 className="core-title">CORE TEAM</h1>
-      <div className="core-container">
-        <Cards
-          name="Karan K"
-          position="Chairperson"
-          imgSrc="/assets/karan-k.png"
-        />
+      <div className="core-container core-cont-1">
         <Cards
           name="Jeswanth S"
-          position="Vice-Chairperson"
+          position="Overall Coordinator"
           imgSrc="/assets/jeswanth.png"
         />
         <Cards
-          name="Adhvaitha B"
-          position="General Secretary"
-          imgSrc="/assets/adhvaitha.png"
-        />
-        <Cards
           name="Kishore P"
-          position="General Secretary"
+          position="Overall Coordinator"
           imgSrc="/assets/kishore.png"
         />
         <Cards
+          name="Adhvaitha B"
+          position="Overall Coordinator"
+          imgSrc="/assets/adhvaitha.png"
+        />
+        <Cards
           name="Salman Farish"
-          position="Joint Secretary"
+          position="Overall Coordinator"
           imgSrc="/assets/salman.png"
         />
         <Cards
           name="Puvanesh Y A"
-          position="Joint Secretary"
+          position="Overall Coordinator"
           imgSrc="/assets/puvanesh.png"
         />
+        <Cards
+          name="Karan K"
+          position="Overall Coordinator"
+          imgSrc="/assets/karan-k.png"
+        />
+      </div>
+      <h1 className="core-title-2">TEAM MEMBERS</h1>
+      <div className="core-container">
         <Cards
           name="Tarun Parthiban"
           position="Technical Lead"

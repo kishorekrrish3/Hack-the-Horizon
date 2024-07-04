@@ -983,6 +983,7 @@ input {
   border-radius: 4px;
   background: #c8f560;
   transition: all 0.1s ease-in-out;
+  color: #01060d;
 }
 
 .contact-form-btn:hover {

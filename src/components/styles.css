@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/bpdots-2');
+@import url("https://fonts.cdnfonts.com/css/bpdots-2");
 @import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
@@ -17,7 +17,7 @@
 .navbar-container {
   width: 88%;
   display: inline-flex;
-  padding: 20px 64px 20px 36px;
+  padding: 20px 46px 20px 36px;
   align-items: center;
   justify-content: space-between;
   border-radius: 200px;
@@ -33,13 +33,13 @@
 .navbar-links {
   display: flex;
   align-items: center;
-  gap: 52px;
+  gap: 42px;
 }
 
 .navbar-link {
   color: #c8f560;
   font-family: "Bruno Ace";
-  font-size: 13px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -1068,7 +1068,7 @@ input {
 
 /* RESPONSIVENESS */
 /* NAVBAR */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
   .navbar-links {
     display: none;
   }

@@ -13,6 +13,7 @@ import Prizes from "./components/Prizes/Prizes";
 import Sponsors from "./components/Sponsors/Sponsors";
 import Judge from "./components/Judge/Judge";
 import Timeline from "./components/Timeline/Timeline";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   const [isFixed, setIsFixed] = useState(false);
@@ -66,6 +67,7 @@ function App() {
         <Contact />
       </div>
       <Footer />
+      <Analytics />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 @font-face {
   font-family: "BPDots";
-  src: url("../fonts/BPdots.otf") format("otf");
+  src: url("/public/fonts/BPdots.otf") format("otf");
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap");

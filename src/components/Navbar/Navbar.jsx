@@ -78,7 +78,7 @@ const Navbar = ({ isFixed }) => {
             Contact
           </a>
         </div>
-        <div className="navbar-caption">Innovate Beyond Boundaries</div>
+        <div className="navbar-caption">Build Beyond Boundaries</div>
       </div>
     </div>
   );

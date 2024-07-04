@@ -7,6 +7,7 @@ const Home = () => {
       <h1 className="home-title">
         HACK THE <span className="home-title-gradient">HORIZON</span>
       </h1>
+      <p className="home-subtitle">Build Beyond Boundaries</p>
       <button className="home-btn">Take the Leap!</button>
     </div>
   );

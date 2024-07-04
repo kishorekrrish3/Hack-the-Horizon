@@ -70,9 +70,21 @@
   font-family: "BPdots", sans-serif;
   color: #fff;
   font-size: 108px;
-  font-weight: 300;
+  font-weight: 500;
   text-align: center;
   padding-top: 8rem;
+}
+
+.home-subtitle {
+  display: flex;
+  color: #c8f560;
+  font-family: Staatliches;
+  font-size: 20px;
+  padding-top: 0.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 12px;
 }
 
 .home-title-gradient {
@@ -1064,6 +1076,9 @@ input {
     max-width: 80%;
     padding-right: 36px;
   }
+  .home-subtitle {
+    display: none;
+  }
   .navbar-caption {
     display: flex;
     color: #c8f560;
@@ -1083,8 +1098,16 @@ input {
 }
 
 @media screen and (max-width: 640px) {
-  .navbar-caption {
+  .navbar {
     display: none;
+  }
+  .home-title {
+    padding-top: 5rem;
+  }
+  .home-subtitle {
+    display: flex;
+    font-size: 16px;
+    letter-spacing: 8px;
   }
   .navbar-container {
     justify-content: center;
@@ -1119,6 +1142,13 @@ input {
 @media screen and (max-width: 420px) {
   .home-title {
     font-size: 56px;
+  }
+  .home-subtitle {
+    font-size: 14px;
+    letter-spacing: 6px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
   }
 }
 
@@ -1299,7 +1329,8 @@ input {
 @media screen and (max-width: 1200px) {
   .sponsors-title,
   .prizes-title,
-  .faculty-title {
+  .faculty-title,
+  .contact-title {
     font-size: 64px;
   }
   .sponsors {
@@ -1310,7 +1341,8 @@ input {
 @media screen and (max-width: 960px) {
   .sponsors-title,
   .prizes-title,
-  .faculty-title {
+  .faculty-title,
+  .contact-title {
     font-size: 56px;
   }
 }
@@ -1318,7 +1350,8 @@ input {
 @media screen and (max-width: 820px) {
   .sponsors-title,
   .prizes-title,
-  .faculty-title {
+  .faculty-title,
+  .contact-title {
     text-align: center;
     font-size: 42px;
   }
@@ -1327,7 +1360,8 @@ input {
 @media screen and (max-width: 380px) {
   .sponsors-title,
   .prizes-title,
-  .faculty-title {
+  .faculty-title,
+  .contact-title {
     font-size: 32px;
   }
 }
@@ -1431,6 +1465,33 @@ input {
   }
 }
 
+/* FAQs */
+@media screen and (max-width: 820px) {
+  .accordion-button {
+    height: 52px;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+    gap: 0.5rem;
+  }
+  .accordion-body {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .accordion-button {
+    font-size: 16px;
+    gap: 0;
+    height: 64px;
+  }
+}
+
+.accordion-button.collapsed::after,
+.accordion-button::after {
+  display: none;
+}
+
 /* CONTACT */
 @media screen and (max-width: 580px) {
   .form-line-1 {
@@ -1445,6 +1506,12 @@ input {
     font-size: 18px;
     padding-top: 6px;
     padding-bottom: 6px;
+  }
+  .contact {
+    padding-top: 2rem;
+  }
+  .faq {
+    padding-bottom: 4rem;
   }
 }
 
